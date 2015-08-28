@@ -440,7 +440,7 @@ class syntax_plugin_dwmenu extends DokuWiki_Syntax_Plugin {
         $link['url']  = wl($args[0]);
         list($id,$hash) = explode('#',$args[0],2);
         if (!empty($hash)) $hash = sectionID($hash, $check);
-        if ($hash) $link['url'] .= '#'.$hash;    //keep hash anchor
+        if ($hash) $link['url'] = wl($id).'#'.$hash;    //keep hash anchor
 
         $link['target'] = $conf['target']['wiki'];
         $link['class'] = $exists ? 'wikilink1' : 'wikilink2';
