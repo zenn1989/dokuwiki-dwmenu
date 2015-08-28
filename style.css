@@ -7,12 +7,12 @@
 .dwmenu_item img{float:left;padding-right: 5px;width: 48px;}
 .dwmenu_item.column1{width:100%}
 .dwmenu_item.column2{width:49%}
-.dwmenu_item.column3{width:33%}
-.dwmenu_item.column4{width:25%}
-.dwmenu_item.column5{width:20%}
+.dwmenu_item.column3{width:32%}
+.dwmenu_item.column4{width:24%}
+.dwmenu_item.column5{width:19%}
 .dwmenu_item.column6{width:16%}
 .dwmenu_item.column7{width:14%}
-.dwmenu_item.column8{width:12.5%}
+.dwmenu_item.column8{width:12%}
 .dwmenu_item.column9{width:11%}
 .dwmenu_item.column10{width:10%}
 .dwmenu_itemhead{font-weight: bold;margin-left: 53px;}
