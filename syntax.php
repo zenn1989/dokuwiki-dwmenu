@@ -225,12 +225,12 @@ class syntax_plugin_dwmenu extends DokuWiki_Syntax_Plugin {
             if(isset($opts['link']) && is_string($opts['link'])){
               $this->datas['columns_data'][$iNumColumn]['link'] = $opts['link'];
             } else {
-              $this->datas['columns_data'][$iNumColumn]['link'] = '';
+              $this->datas['columns_data'][$iNumColumn]['link'] = 'link';
             }
             if(isset($opts['image']) && is_string($opts['image'])){
               $this->datas['columns_data'][$iNumColumn]['image'] = $opts['image'];
             } else {
-              $this->datas['columns_data'][$iNumColumn]['image'] = '';
+              $this->datas['columns_data'][$iNumColumn]['image'] = 'image.png';
             }
             $this->datas['columns_data'][$iNumColumn]['link_data'] = array();
           } elseif($arrXMLName[0] == 'dwlink'){
