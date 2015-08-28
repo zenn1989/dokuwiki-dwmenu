@@ -3,8 +3,8 @@
 .dwmenu.left{float:left}
 .dwmenu.right{float:right}
 .dwmenu_caption{font-size: medium !important;font-weight: bold;}
-.dwmenu_item{display:inline-block;padding: 5px 2px;}
-.dwmenu_item img{float:left;padding-right: 5px;vertical-align: top;width: 48px;}
+.dwmenu_item{display:inline-block;padding: 5px 2px;vertical-align: top;}
+.dwmenu_item img{float:left;padding-right: 5px;width: 48px;}
 .dwmenu_item.column1{width:100%}
 .dwmenu_item.column2{width:49%}
 .dwmenu_item.column3{width:32%}
