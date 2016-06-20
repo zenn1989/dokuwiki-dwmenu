@@ -338,6 +338,7 @@ class syntax_plugin_dwmenu extends DokuWiki_Syntax_Plugin {
         }
         $renderer->doc .= '</div>'."\n";
       }
+	  $renderer->doc .= '</div>'."\n";
       if($data['align'] == 'left' || $data['align'] == 'right'){
         $renderer->doc .= '<p style="clear:both;" />';
       }
